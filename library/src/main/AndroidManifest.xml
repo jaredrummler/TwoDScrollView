@@ -15,7 +15,6 @@
   ~
   -->
 
-<manifest package="com.jaredrummler.android"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest package="com.jrummyapps.android.twodscrollview">
 
 </manifest>
