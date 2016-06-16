@@ -10,8 +10,9 @@ android {
   }
 }
 
-apply from: 'gradle-mvn-push.gradle'
+//apply from: 'publication.gradle'
+//apply from: 'gradle-mvn-push.gradle'
 
-afterEvaluate {
-  androidJavadocs.classpath += project.android.libraryVariants.toList().first().javaCompile.classpath
-}
+//afterEvaluate {
+//  androidJavadocs.classpath += project.android.libraryVariants.toList().first().javaCompile.classpath
+//}
